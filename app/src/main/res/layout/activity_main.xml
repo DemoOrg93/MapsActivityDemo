@@ -16,68 +16,76 @@
 
     <ImageView
         android:id="@+id/imagecross"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/redcross"
-        android:layout_marginBottom="40dp"/>
+        android:layout_width="226dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/hospital"
+        android:layout_marginTop="20dp"/>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-    <TextView
-        android:padding="10dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Name"
-        android:layout_marginRight="35dp"
-        android:layout_marginBottom="20dp"/>
+
+
 
     <EditText
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/shape_edittext"
+        android:hint="Username"
+        android:gravity="center"
         android:id="@+id/login_name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Your name"
-        android:padding="10dp"/>
-    </LinearLayout>
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <TextView
-            android:padding="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Password"
-            android:layout_marginRight="10dp"/>
-
-        <EditText
+    <EditText
             android:id="@+id/login_pwd"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="40dp"
             android:hint="Your password"
+            android:gravity="center"
             android:padding="10dp"
+            android:background="@drawable/shape_edittext"
             android:layout_marginBottom="10dp"/>
-    </LinearLayout>
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember me"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        />
+
 
     <Button
+        android:background="@drawable/shape_button"
         android:id="@+id/btn_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"
+        android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
         android:layout_gravity="center_horizontal"/>
-
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2">
     <TextView
         android:id="@+id/login_forgotpwd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="Forgot password??"
+        android:gravity="center"
+        android:layout_weight="1"
         android:padding="10dp"/>
 
     <TextView
+        android:layout_weight="1"
+        android:gravity="center"
         android:id="@+id/login_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -85,30 +93,35 @@
         android:text="New? Register here!!"
         android:padding="10dp"
         android:layout_marginBottom="20dp"/>
+</LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
         android:orientation="horizontal"
-        android:layout_gravity="center_horizontal">
+        android:layout_gravity="center_horizontal"
+        android:weightSum="3">
 
         <ImageView
-            android:layout_width="77dp"
-            android:layout_height="73dp"
-            android:src="@drawable/facebook"
-            />
+            android:id="@+id/imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/facebook" />
+
         <ImageView
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:src="@drawable/gmail"
-            android:layout_marginRight="50dp"
+            android:id="@+id/imageView2"
+            android:layout_width="53dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="50dp"
-            />
+            android:layout_marginRight="50dp"
+            android:src="@drawable/gmail" />
+
         <ImageView
-            android:layout_width="77dp"
-            android:layout_height="73dp"
-            android:src="@drawable/ll"
-            />
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:src="@drawable/linkedin" />
     </LinearLayout>
 </LinearLayout>
 </ScrollView>

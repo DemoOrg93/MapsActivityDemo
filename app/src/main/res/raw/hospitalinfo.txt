@@ -1,0 +1,40 @@
+{
+    "Datas": {
+ "hospitals":[
+  {
+   "name":"Bir Hospital",
+   "lat":27.7048,
+   "long":85.3137
+  },
+  {
+   "name":"Patan hospital",
+   "lat":27.6683,
+   "long":85.3206
+  },
+  {
+   "name":"Vayoda",
+   "lat":27.6842,
+   "long":85.2985
+  },
+  {
+   "name":"Norvic",
+   "lat":27.6900,
+   "long":85.3191
+  },
+  {
+   "name":"B & B",
+   "lat":27.6649,
+   "long":85.3296
+  },
+  {
+   "name":"National Kidney Center",
+   "lat":27.7246,
+   "long":85.2958
+  },
+  {27.7360, 85.3303, "Maharajgunj ", "hospital", "Teaching Hospital
+   "name":"Teaching Hospital",
+   "lat":27.7360,
+   "long":85.3303
+  }
+ ]
+}
