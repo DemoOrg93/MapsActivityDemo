@@ -39,7 +39,7 @@ import java.util.List;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener, LocationListener {
-    private GoogleMap mMap;
+    private GoogleMap mMap;//demo
 
     GoogleApiClient client;
     public final int REQUEST_LOCATION_CODE = 0;
